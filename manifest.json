@@ -1,0 +1,28 @@
+{
+    "author" : "Patrick Pistor",
+    "name" : "JB Hunt Design System",
+    "id": "e7851592",
+    "version": "1.0.0",
+    "description": "Sample panel plugin code for Adobe XD",
+    "host": {
+        "app": "XD",
+        "minVersion": "21.0"
+    },
+    "icons" : [ {
+        "path" : "images/icon@1x.png",
+        "width" : 24,
+        "height" : 24
+      }, {
+        "path" : "images/icon@2x.png",
+        "width" : 48,
+        "height" : 48
+      }
+    ],
+    "uiEntryPoints": [
+        {
+            "type": "panel",
+            "label": "Panel Rendition",
+            "panelId": "example"
+        }
+    ]
+}
